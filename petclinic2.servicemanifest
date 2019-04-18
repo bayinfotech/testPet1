@@ -1,0 +1,46 @@
+{
+    "name": "petclinic2",
+    "displayName": "petclinic2",
+    "description": "",
+    "logoPath": null,
+    "parentServiceId": "48",
+    "parentService": false,
+    "systemService": false,
+    "externalService": false,
+    "visible": true,
+    "bundleLocation": "",
+    "isBundleRequired": false,
+    "externalBundleLocation": "",
+    "isExternalBundleRequired": false,
+    "costPerHour": 0,
+    "defaultImageId": 0,
+    "serviceType": "CONTAINER",
+    
+    "externalActions": [],
+    "servicePorts": [],
+    "serviceParamSpecs": [],
+    "egressRestrictions": [],
+    "childServices": [],
+    "images": [],
+    "repositories": [],
+    "containerImages": [
+        {
+            
+            "url": "ratanmistry3010/petclinic:latest",
+            "default": true
+        },
+        {
+            
+            "url": "ratanmistry3010/petclinic:latest1",
+            "default": false
+        }
+    ],
+    "containerPorts": [
+        {
+            
+            "protocol": "TCP",
+            "name": "port8080",
+            "port": 8080
+        }
+    ]
+}
